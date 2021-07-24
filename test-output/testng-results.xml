@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33" started-at="2021-05-09T10:06:36Z" finished-at="2021-05-09T10:06:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33" started-at="2021-05-09T10:06:36Z" finished-at="2021-05-09T10:06:36Z">
+      <class name="test.Testcase1">
+        <test-method status="PASS" signature="bf()[pri:0, instance:test.Testcase1@735b5592]" name="bf" is-config="true" duration-ms="9" started-at="2021-05-09T10:06:36Z" finished-at="2021-05-09T10:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bf -->
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.Testcase1@735b5592]" name="Demo" duration-ms="4" started-at="2021-05-09T10:06:36Z" finished-at="2021-05-09T10:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="HomeLoan()[pri:0, instance:test.Testcase1@735b5592]" name="HomeLoan" duration-ms="1" started-at="2021-05-09T10:06:36Z" finished-at="2021-05-09T10:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoan -->
+        <test-method status="PASS" signature="UAT()[pri:0, instance:test.Testcase1@735b5592]" name="UAT" duration-ms="1" started-at="2021-05-09T10:06:36Z" finished-at="2021-05-09T10:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UAT -->
+      </class> <!-- test.Testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

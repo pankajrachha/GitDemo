@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count= "2">
+
+	<test name ="Testing">
+		<packages>
+			<package name = "test.*"/>		
+		</packages>
+	
+	<build>
+		<plugins>
+			<plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
+			  <artifactId>maven-compiler-plugin</artifactId>
+			  <configuration>
+			  	<source>1.6</source>
+			  	<target>1.6</target>
+			  </configuration>
+			 </plugin>		
+		
+			<plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
+			  <artifactId>maven-surefire-plugin</artifactId>
+			  <configuration>
+			  	<suiteXmlFiles>
+			  		<suiteXmlFile>src/main/resources/testng/xml</suiteXmlFile>
+			  	</suiteXmlFiles>
+			  </configuration>
+			 </plugin>	
+			 
+			 <plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
+			  <artifactId>maven-source-plugin</artifactId>
+			  <executions>
+			  	<execution>
+			  		<id>attach-sources</id>
+			  		<goals>
+			  			<goal>jar</goal>
+			  		</goals>			  	
+			  	</execution>			  
+			  </executions>
+			 </plugin>	
+			 
+			 
+			 
+		</plugins>
+	
+	</build>
+	
+	</test>  
+</suite> 
