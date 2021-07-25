@@ -9,6 +9,7 @@ public class Testcase1 {
 	public void bf()
 	{
 		System.out.println("before test ");
+		System.out.println("Added test ");
 	}
 	@Test 
 	public void HomeLoan()
