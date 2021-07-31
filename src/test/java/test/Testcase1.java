@@ -10,6 +10,7 @@ public class Testcase1 {
 	{
 		System.out.println("before test ");
 		System.out.println("Added test ");
+		System.out.println("Master test ");
 	}
 	@Test 
 	public void HomeLoan()
