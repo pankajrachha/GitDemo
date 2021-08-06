@@ -12,7 +12,7 @@ public class Testcase1 {
 		System.out.println("Added test ");
 		System.out.println("Master test ");
 		
-		System.out.println("In Fixed Branch ");
+		System.out.println("In Fixed Branch 1");
 	}
 	@Test 
 	public void HomeLoan()
